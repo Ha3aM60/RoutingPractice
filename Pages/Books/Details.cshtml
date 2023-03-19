@@ -1,0 +1,10 @@
+﻿@page "{id:int}"
+@model RoutingPractice.Pages.Books.DetailsModel
+@{
+    ViewData["Title"] = "Details";
+}
+<h2>@Model.book.Title</h2>
+<h2>@Model.book.Author</h2>
+<h3>@Model.book.Genre</h3>
+<h3>@Model.book.Publisher</h3>
+<h3>@Model.book.YearOfPublishing</h3>
